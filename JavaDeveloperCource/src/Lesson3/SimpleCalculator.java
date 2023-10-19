@@ -19,6 +19,7 @@ public class SimpleCalculator {
         int x = scanner.nextInt();
         System.out.print("Второе число: ");
         int y = scanner.nextInt();
+        scanner.close();
         System.out.printf("Сложение = %d \nВычитание = %d \nУмножение = %d \nДеление = %d\n",
                 x + y, x - y, x * y, x / y);
     }
