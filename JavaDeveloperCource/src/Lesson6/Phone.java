@@ -2,9 +2,9 @@ package Lesson6;
 
 public class Phone {
 
-    String number;
-    String model;
-    int weight;
+    private String number;
+    private String model;
+    private int weight;
 
     public Phone(){
     }
@@ -25,6 +25,12 @@ public class Phone {
     }
 
     public String getNumber(){
-     return this.number;
+        return this.number;
+    }
+    public String getModel(){
+        return this.model;
+    }
+    public int getWeight(){
+        return this.weight;
     }
 }
