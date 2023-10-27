@@ -27,10 +27,10 @@ public class Phone {
     public String getNumber(){
         return this.number;
     }
-    public String getModel(){
-        return this.model;
+
+    public void printPhone() {
+        System.out.printf("Модель телефона: %s,\tвес: %d,\tномер телефона: %s\t\n",
+                model, weight, number);
     }
-    public int getWeight(){
-        return this.weight;
-    }
+
 }
