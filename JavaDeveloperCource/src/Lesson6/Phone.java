@@ -28,7 +28,7 @@ public class Phone {
         return this.number;
     }
 
-    public void printPhone() {
+    public void info() {
         System.out.printf("Модель телефона: %s,\tвес: %d,\tномер телефона: %s\t\n",
                 model, weight, number);
     }

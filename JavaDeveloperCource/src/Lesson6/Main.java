@@ -9,9 +9,9 @@ public class Main {
         Phone phone3 = new Phone("+7(999)012-45-11","Nokia",170);
 
 
-        phone1.printPhone();
-        phone2.printPhone();
-        phone3.printPhone();
+        phone1.info();
+        phone2.info();
+        phone3.info();
 
         phone1.receiveCall("Николай");
         phone2.receiveCall("Ольга");
