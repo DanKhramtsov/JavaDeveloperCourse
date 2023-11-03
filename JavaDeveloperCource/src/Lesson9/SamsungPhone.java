@@ -1,6 +1,7 @@
-package Lesson8;
+package Lesson9;
 
-public class SamsungPhone extends Phone{
+
+public class SamsungPhone<T> extends Phone<T> {
 
     public SamsungPhone(String number, String model, int weight) {
         super(number, model, weight);

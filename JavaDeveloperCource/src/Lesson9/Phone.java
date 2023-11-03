@@ -1,6 +1,6 @@
-package Lesson8;
+package Lesson9;
 
-public abstract class Phone implements Callable, Informable {
+public abstract class Phone<T> implements Callable<T>, Informable<T> {
 
     private String number;
     private String model;
@@ -24,8 +24,7 @@ public abstract class Phone implements Callable, Informable {
         this.weight = weight;
     }
 
-    @Override
-    public void receiveCall(String name) {
+    public void receiveCall(T name) {
         System.out.println("Звонит " + name);
     }
 
