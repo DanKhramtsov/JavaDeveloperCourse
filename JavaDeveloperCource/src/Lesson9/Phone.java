@@ -1,6 +1,6 @@
 package Lesson9;
 
-public abstract class Phone<T> implements Callable<T>, Informable<Phone<T>> {
+public abstract class Phone<T> implements Callable<T>, Informable<T> {
 
     private String number;
     private String model;

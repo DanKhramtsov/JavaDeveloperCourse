@@ -6,26 +6,22 @@
 package Lesson9;
 
 
-import Lesson8.ApplePhone;
-import Lesson8.SamsungPhone;
-import Lesson8.XiaomiPhone;
-
-
 public class Main {
 
     public static void main(String[] args) {
 
-        ApplePhone applePhone = new ApplePhone("+71234567890", "IPhone 15", 100);
+        Phone<String> applePhone = new ApplePhone("+71234567890", "IPhone 15", 100);
         applePhone.receiveCall("Николай");
         applePhone.info(applePhone);
 
-        SamsungPhone samsungPhone = new SamsungPhone("+71234567000", "S21", 120);
+        Phone<String> samsungPhone = new SamsungPhone("+71234567000", "S21", 120);
         samsungPhone.receiveCall("Юрий");
         samsungPhone.info(samsungPhone);
 
-        XiaomiPhone xiaomiPhone = new XiaomiPhone("+71234533333", "Redmi 3", 130);
+        Phone<String> xiaomiPhone = new XiaomiPhone("+71234533333", "Redmi 3", 130);
         xiaomiPhone.receiveCall("Ольга");
         xiaomiPhone.info(xiaomiPhone);
+
 
     }
 }
